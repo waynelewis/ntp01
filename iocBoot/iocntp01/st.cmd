@@ -12,10 +12,11 @@ dbLoadDatabase "dbd/ntp01.dbd"
 ntp01_registerRecordDeviceDriver pdbbase
 
 ## Load record instances
-#dbLoadRecords("db/xxx.db","user=wlewis")
+dbLoadRecords("db/iocNTP.db","IOCNAME=ntptest")
+dbLoadRecords("db/iocAdminSoft.db","IOC=ntptest")
 
 cd "${TOP}/iocBoot/${IOC}"
-iocInit
+iocInit()
 
 ## Start any sequence programs
 #seq sncxxx,"user=wlewis"
