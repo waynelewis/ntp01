@@ -1,0 +1,7 @@
+lib/
+dbd/
+db/
+O.Common/
+O.linux-x86/
+envPaths
+bin/
