@@ -12,6 +12,7 @@ include $(TOP)/configure/CONFIG
 # databases, templates, substitutions like this
 DB += $(IOCSTATS)/db/iocAdminSoft.db
 DB += $(IOCSTATS)/db/iocNTP.db
+DB += $(IOCSTATS)/db/iocNTPPeer.db
 
 #----------------------------------------------------
 # If <anyname>.db template is not named <anyname>*.template add

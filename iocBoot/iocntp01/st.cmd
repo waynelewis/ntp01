@@ -13,6 +13,12 @@ ntp01_registerRecordDeviceDriver pdbbase
 
 ## Load record instances
 dbLoadRecords("db/iocNTP.db","IOCNAME=ntptest")
+dbLoadRecords("db/iocNTPPeer.db","IOCNAME=ntptest,PEER=0")
+dbLoadRecords("db/iocNTPPeer.db","IOCNAME=ntptest,PEER=1")
+dbLoadRecords("db/iocNTPPeer.db","IOCNAME=ntptest,PEER=2")
+dbLoadRecords("db/iocNTPPeer.db","IOCNAME=ntptest,PEER=3")
+dbLoadRecords("db/iocNTPPeer.db","IOCNAME=ntptest,PEER=4")
+dbLoadRecords("db/iocNTPPeer.db","IOCNAME=ntptest,PEER=5")
 dbLoadRecords("db/iocAdminSoft.db","IOC=ntptest")
 
 cd "${TOP}/iocBoot/${IOC}"
