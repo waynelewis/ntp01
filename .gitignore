@@ -3,5 +3,6 @@ dbd/
 db/
 O.Common/
 O.linux-x86/
+O.linux-x86-debug/
 envPaths
 bin/
