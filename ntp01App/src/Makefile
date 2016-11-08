@@ -17,6 +17,7 @@ ntp01_DBD += base.dbd
 
 # Include dbd files from all support applications:
 ntp01_DBD += devIocStats.dbd
+ntp01_DBD += devIocStatsNTP.dbd
 
 # Add all the support libraries needed by this IOC
 ntp01_LIBS += devIocStats
